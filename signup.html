@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        background-color:whitesmoke;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    .form-container {
+  width: 400px;
+  background: linear-gradient(180deg,#FFBA0B 25%,rgb(255, 255, 255) 20%);
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px auto;
+  margin-top:60px ;
+}
+
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 69px;
+}
+
+.form-container p {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(4, 4, 4);
+}
+
+.form-container label {
+  color: rgb(40, 42, 44);
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.form-container .input {
+  padding: 10px;
+  height: 35px;
+  border: none;
+  background-color: rgb(224, 231, 236);
+}
+
+.form-container .input:focus {
+  outline: none;
+}
+
+.form-container button {
+  border: none;
+  height: 35px;
+  margin-top: 30px;
+  background-color:#FFBA0B;
+  color: white;
+  font-size: 16px;
+}
+div:hover{
+  box-shadow: 10px 10px 10px black;
+}
+</style>
+</head>
+<div class="topnav">
+  <a class="active" href="main.html">Home</a>
+  <a class="active" href="main4.html">Service</a>
+  <a class="active"href="main3.html">Contact</a>
+  <a class="active" href="main2.html">About</a>
+
+</div>
+
+<body>
+    <div class="form-container">
+        <p>Sign Up</p>
+    <form class="form">
+        <label>Email</label>
+        <input type="text" class="input" placeholder="Enter yout email">
+        <label>Password</label>
+        <input type="password" class="input" placeholder="Password"> 
+        <button>Submit</button>
+    </form>
+    </div>
+</body>
+</html>

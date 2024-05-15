@@ -1,0 +1,281 @@
+<html>
+<head><link rel="stylesheet" href="main.css"><title>V4_CABS > Contact</title>
+<style>.container {
+    /* position: relative; */
+    width: 100%;
+    display: inline;
+    padding: 150px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+ 
+  .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  left: 50%;
+  
+  text-align: center;
+  }
+  
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color:orange;
+    color: black;
+    font-size: 18px;
+    padding: 16px 32px;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+  
+    }
+
+    header {
+      background-color: rgb(207, 26, 26);
+      color: #fff;
+      padding: 15px 0;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 2px 5px;
+    }
+    nav ul{list-style: none;
+      display: flex;
+      margin-left: 940px;
+      padding:0;
+
+    }
+    nav ul li {
+    margin-right: 20px;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none; 
+    transition: text-decoration 0.3s ease; 
+}
+
+
+nav ul li:hover {
+    text-decoration: underline; 
+}
+
+nav ul li a:hover {
+    text-decoration: none; 
+    color: #ff6600; 
+}
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .contact {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #927e0f;
+    }
+
+    .contact-intro {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .contact-info h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #5c5a1d;
+    }
+
+    .contact-form .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      color: #5c5a1d;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #5c5a1d;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #7f7d2a;
+    }
+  </style>
+  </head>
+  <body>
+<div class="topnav">
+    <a href="main.html">Home</a>
+    <a href="main4.html">Service</a>
+    <a class="active" href="main3.html">Contact</a>
+    <a href="main2.html">About</a>
+  </div>
+  <div><br><br>
+    <h1 style="text-align: center;">Book your comfortable and hassle free ride with us.</h1>
+        <h3 style="text-align: center;">Ready to Ride? Let's go for comfortable and seamless ride by just contacting below</h3>
+  </div><br><br><br>
+
+    <div class="container">
+      <img src="images/office.webp" class="image">
+      <div class="middle">
+          <div class="text">Chitkara University,Rajpura,Punjab</div>
+        </div>
+    </div>
+    <div class="container">
+      <img src="images/call.webp" class="image">
+      <div class="middle">
+          <div class="text">Call us on +91520000000 or +9630002000</div>
+        </div>
+    </div>
+    <div class="container">
+      <img src="images/mail1.webp" class="image">
+      <div class="middle">
+          <div class="text">V4_Cabs_support@gmail.com</div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <center><div><h1>For any query Send us a message.</h1></div></center>
+    <main>
+      <fieldset>
+        <div class="contact-form">
+          <!-- <div><h2>Send Us a Message</h2></div> -->
+          <form action="submit_contact_form.php" method="post">
+            <div class="form-group ">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="abc@gmail.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit"><a href="main3.html" style="color: white;">Send Message</a></button>
+          </form>
+        </div>
+      </section>
+    </fieldset>
+    </main>
+  
+
+<div class="foot">
+    <footer class="footer-distributed">
+  
+      <div class="footer-left">
+  
+        <h3><img src="images\cablogo.jpg" width="400px" ></span></h3>
+  <p class="footer-links">
+          <a href="main.html" class="link-1">Home</a>
+        
+          <a href="main2.html">About</a>
+          
+          <a href="main4.html">Service</a>
+          
+          <a href="main3.html">Contact</a>
+        </p>
+  
+        <p class="footer-company-name">V4_Cabs © 2023 . All Rights are Reserved</p>
+      </div>
+  
+      <div class="footer-center">
+  
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>CHITKARA University</span>CHANDIGARH-PATIALA NATIONAL HIGHWAY
+            RAJPURA (PATIALA)</p>
+        </div>
+  
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 20005-39410</p>
+        </div>
+  
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="V4_Cabs_support@Cab-book.com">V4_Cabs_support@Cab-book.com</a></p>
+        </div>
+  
+      </div>
+  
+      <div class="footer-right">
+  
+        <p class="footer-company-about">
+          <span>About the company</span>
+         At <strong>V4_Cabs</strong>, we assure you a<br><strong>Safe , Comfortable and Convenient journey</strong><br>with our specialised taxi services.
+        </p>
+  
+        <div class="footer-icons">
+        
+          <a href="https://wwww.facebook.com/"><i class="fa fa-facebook"><img src="images\facebool.jpg" width="35"height = "35"></i></a>
+          <a href="https://twitter.com/"><i class="fa fa-twitter"><img src="images\twitter.jpg" width="35"height = "35"></i></a>
+          <a href="https://instagram.com/"><i class="fa fa-linkedin"><img src="images\insta.jpg" width="35"height = "35"></i></a>
+          
+  
+        </div>
+  
+      </div>
+  
+    </footer>
+  </div>
+  
+  
+  </body>
+  </html>
