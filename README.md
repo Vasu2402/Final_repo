@@ -18,7 +18,7 @@ Content Creation Guidelines: Offering tips and techniques for creating SEO-frien
 Table of Contents
 Versions
 Features
-Installation
+InstallationM
 Usage
 Contributing
 License
