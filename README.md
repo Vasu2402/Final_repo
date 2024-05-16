@@ -7,7 +7,4 @@ Welcome to our SEO-Friendly Project! This repository contains the collaborative 
 -Vinny 
 -Vedansh 
 
-is it
-
-uujlm,
 
