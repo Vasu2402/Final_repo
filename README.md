@@ -10,7 +10,7 @@ Welcome to our SEO-Friendly Project! This repository contains the collaborative 
 # Project Overview
 Our SEO-Friendly Project is designed to help websites achieve better rankings on search engines through a comprehensive set of tools and best practices. Key features include:
 
-Keyword Analysis: Identifying and targeting the most effective keywords for your content.
+Keyword Analysis: Identifying and targeting the most effective keywords for your content.\n
 On-Page Optimization: Improving the structure, content, and HTML elements of your website.
 Backlink Strategy: Developing a robust plan to gain quality backlinks.
 Performance Tracking: Monitoring and analyzing your website's SEO performance over time.
