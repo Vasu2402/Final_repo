@@ -7,10 +7,7 @@ Welcome to our SEO-Friendly Project! This repository contains the collaborative 
 -Vinny 
 -Vedansh 
 
-hi
-hello
-hi
-hi miss
+
 
 is it
 
